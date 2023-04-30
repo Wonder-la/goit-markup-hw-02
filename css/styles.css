@@ -1,7 +1,51 @@
-header {
-  background-color: #2e2f42;
+.list {
+  text-decoration: none;
+  font-family: "Roboto";
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2e2f42;
+}
+button {
+  cursor: pointer;
+}
+.logo-part {
+  color: #4d5ae5;
+  font-family: "Raleway";
+
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+}
+.logo-part2 {
+  font-family: "Raleway";
+
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  color: #2e2f42;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+}
+.menu-link {
+  font-family: "Roboto";
+  letter-spacing: 0.02em;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #434455;
+}
+.list:hover,
+.list:focus {
+  color: #404bbf;
 }
 
-body{
-    background-color: black;
+.menu-link:hover,
+.menu-link:focus {
+  color: #404bbf;
+}
+body {
+    font-family: "Roboto";
 }
