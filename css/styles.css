@@ -44,7 +44,7 @@
 
 .index-open-btn:hover,
 .index-open-btn:focus {
-  color: #404BBF;
+  background-color: #404BBF;
   cursor: pointer;
 }
 
