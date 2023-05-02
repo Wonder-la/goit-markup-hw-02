@@ -3,6 +3,7 @@
   --main-font-family: "Roboto", sans-serif;
   --color-btn:  #4d5ae5;
   --background-btn: #F4F4FD;
+  --paragraph-color: #434455;
 }
 .list_part {
   text-decoration: none;
@@ -29,7 +30,22 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  
+}
+
+.index-open-btn {
+  background-color: #4D5AE5;
+  font-family: var(--main-font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+.index-open-btn:hover,
+.index-open-btn:focus {
+  color: #404BBF;
+  cursor: pointer;
 }
 
 .logo {
@@ -79,6 +95,8 @@ body {
 .modal-open-btn:focus,
 .modal-open-btn:hover {
   background: #404bbf;
+  cursor: pointer;
+  color: #FFFFFF
 }
 
 .title {
@@ -102,6 +120,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--paragraph-color);
 }
 .address {
   font-style: normal;
