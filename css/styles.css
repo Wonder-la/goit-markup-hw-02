@@ -29,7 +29,6 @@
   color: #ffffff;
 }
 
-
 .logo {
   color: #4d5ae5;
   font-family: var(--secondaty-font-family);
@@ -40,26 +39,25 @@
   text-decoration: none;
   text-transform: uppercase;
 }
-.logo_1 {
+.logo_t {
   font-family: var(--secondaty-font-family);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #2E2F42
+  color: #2e2f42;
 }
-.logo_11 {
-  color: #f4f4fd
+.logo_b {
+  color: #f4f4fd;
 }
 .menu-link {
   font-family: var(--main-font-family);
-  letter-spacing: 0.02em;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.5
-  list-style none;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
-} 
+}
 .list_part:hover,
 .list_part:focus {
   color: #404bbf;
@@ -70,7 +68,7 @@
   color: #404bbf;
 }
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font-family);
   color: #434455;
   background-color: #ffffff;
 }
@@ -79,11 +77,9 @@ body {
 .modal-open-btn:hover {
   background: #404bbf;
 }
-.addresses {
-  font-style: normal;
-}
+
 .title {
-  background-color:#2e2f42
+  background-color: #2e2f42;
 }
 .title-head {
   font-size: 56px;
@@ -97,7 +93,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color:#2e2f42
+  color: #2e2f42;
 }
 .studio-list {
   font-size: 16px;
@@ -113,7 +109,7 @@ body {
   color: #2e2f42;
 }
 .team_section {
-  background-color: #F4F4FD
+  background-color: #f4f4fd;
 }
 .team_item {
   font-size: 36px;
@@ -124,7 +120,7 @@ body {
   color: #2e2f42;
 }
 .team_list {
-  background-color: #FFFFFF
+  background-color: #ffffff;
 }
 .footer {
   background-color: #2e2f42;
