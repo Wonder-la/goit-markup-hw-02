@@ -25,12 +25,11 @@
   color: var(--color-btn);
   background-color: var(--background-btn);
   font-family: var(--main-font-family);
-  background-color: #404BBF;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  
 }
 
 .logo {
