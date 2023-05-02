@@ -1,6 +1,8 @@
 :root {
   --secondaty-font-family: "Raleway", sans-serif;
   --main-font-family: "Roboto", sans-serif;
+  --color-btn:  #4d5ae5;
+  --background-btn: #F4F4FD;
 }
 .list_part {
   text-decoration: none;
@@ -20,8 +22,10 @@
 }
 .modal-open-btn {
   cursor: pointer;
-  background: #4d5ae5;
-  --main-font-family: "Roboto", sans-serif;
+  color: var(--color-btn);
+  background-color: var(--background-btn);
+  font-family: var(--main-font-family);
+  background-color: #404BBF;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -99,6 +103,9 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+.address {
+  font-style: normal;
 }
 .doing {
   font-size: 36px;
